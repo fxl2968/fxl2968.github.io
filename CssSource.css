@@ -1,0 +1,70 @@
+/**
+Name:Feng Lin
+Course: ISTE-340
+*/
+#myDiv{
+margin-left:30%;
+margin-right:30%;
+margin-top:3%;
+background-color:white;
+height:50em;
+border-radius: 5em;
+}
+h1{
+	
+	text-align:center;
+	padding-top:1%;
+	color:grey;
+	padding-left:5%;
+	padding-right:5%;
+}
+h4{
+	padding-left:1%;
+}
+select{
+  margin-left: 1%;
+  width:8em;
+  border-radius: 1em;
+  font-size:20px;
+  padding-left:5px;
+}
+body{
+	background-image:url("Hibachi.png");
+}
+#choose{
+	opacity:0;
+	text-align:center;
+	font-size:150%;
+	padding-top:5%;
+	
+}
+p{
+	color:green;
+}
+#clearlocal
+{
+	float:right;
+	width:10em;
+	height:4em;
+	border-radius: 3em;
+    right:0;
+	bottom:0;
+	position:absolute;
+}
+#clearcook{
+	float:left;
+	width:10em;
+	height:4em;
+	border-radius: 3em;
+    left:0;
+	bottom:0;
+	position:absolute;
+	
+}
+#image{
+	height:300px;
+	width:400px;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:5em;
+}
