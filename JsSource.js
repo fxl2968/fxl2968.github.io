@@ -30,7 +30,7 @@ if(navigator.appVersion.indexOf("MSIE 8.")!=-1){
 //Set the head for the web page
 myDiv = document.getElementById("myDiv");
 var head=document.createElement('h1');
-	var headtext=document.createTextNode(getResult);
+	var headtext=document.createTextNode("Welcome to Habachi");
 	head.appendChild(headtext);
 	myDiv.appendChild(head);
 //Create first select list.
