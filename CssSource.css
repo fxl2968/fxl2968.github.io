@@ -61,9 +61,9 @@ p{
 	
 }
 #image{
-	height:300px;
-	width:400px;
-	margin-left:20%;
+	height:35vh;
+	width:30vw;
+	margin-left:10%;
 	margin-right:20%;
 	border-radius:5em;
 }
