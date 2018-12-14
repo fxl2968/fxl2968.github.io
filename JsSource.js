@@ -25,7 +25,7 @@ if(navigator.appVersion.indexOf("MSIE 8.")!=-1){
 }
 
 
-
+checkEmpty=data[Object.keys(data)[0]][1];
 //Set the head for the web page
 myDiv = document.getElementById("myDiv");
 var head=document.createElement('h1');
