@@ -1,6 +1,5 @@
 /**
 Name:Feng Lin
-Course: ISTE-340
 */
 data.back; //Get data from data js file
 //Attribute
@@ -51,10 +50,10 @@ document.getElementById("mySelect").value=array[0];
 getSecondStep(array[0]);
 first=false;
 
-}
+    }
 
 
-}
+  }
 //Create a second select list
 function getSecondStep(test){	
 RemoveList(1);
@@ -77,11 +76,9 @@ if(get!=null && array.length>1 && second==true){
 	document.getElementById("mySelect1").value=array[1];
 	getFinalStep(array[1]);
 	second=false;
-}
-
-
-}
-}
+     }
+   }
+ }
 
 //Create third select list
 function getFinalStep(test){
@@ -104,15 +101,12 @@ if(get!=null && array.length>2 && third==true){
 	document.getElementById("mySelect2").value=array[2];
 ToStore(array[2]);
 	third=false;
-}
-
-}
-
+    }
+  }
 }
 
 //Create option list.
 function OptionList(test){
-
 	for (var i = 1; i < data[test].length; i++) {
     var option = document.createElement("option");
     option.setAttribute("value", data[test][i]);
@@ -141,9 +135,6 @@ var len=Selects.length;
 var arrlen=choose.length;	
 var RemoveChooce=document.getElementById('choose');
 var RemoveImage=document.getElementById('image');
-console.log(choose);
-console.log(len);
-console.log(arrlen);
 if(x!=checkEmpty){
 	choose.push(x);
 }
@@ -170,10 +161,7 @@ else
 	  myDiv.removeChild(RemoveChooce);
 	  myDiv.removeChild(RemoveImage);
 	}
-}
-if(window.localStorage){
-localStorage.setItem("choose", JSON.stringify(choose));
-}
+  }
 }
 
 //Show out the word and image of whhich user order.

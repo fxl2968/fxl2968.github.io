@@ -1,6 +1,5 @@
 /**
 Name:Feng Lin
-Course: ISTE-340
 */
 var habachi="MealChoice";
 var data=[];
